@@ -25,14 +25,21 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-//    private ArrayList<Hero> getListHero(){
-////        private String[] gambar =
-//
-//
-//
-//
-//
-//
-//
-//    }
+    private ArrayList<Hero> getListHero(){
+        String[] dataName = getResources().getStringArray(R.array.data_name);
+        TypedArray dataPhoto = getResources().obtainTypedArray(R.array.data_photo);
+        TypedArray dataPhoto_Episode = getResources().obtainTypedArray(R.array.data_photo_episode);
+
+
+        ArrayList<Hero> heroes = new ArrayList<>();
+
+
+
+
+
+
+
+
+        return heroes;
+    }
 }
