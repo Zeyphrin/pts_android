@@ -5,14 +5,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    >
 
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_hero"
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ayomasak_main"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="83dp" />
+        android:layout_height="30dp"
+        android:hint="cari..."
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:background="@drawable/background_search"
+        android:paddingLeft="7dp"
+        />
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rv_hero"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:layout_editor_absoluteX="33dp"-->
+<!--        tools:layout_editor_absoluteY="83dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
