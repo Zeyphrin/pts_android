@@ -1,4 +1,296 @@
 <resources>
     <string name="app_name">AayoMasak</string>
     <string name="cari">Cari resep...</string>
+    <string-array name="nama_makanan">
+        <item>Bakwan Pontianak</item>
+        <item>Soto Ayam</item>
+        <item>Nasi Goreng</item>
+        <item>Ayam Bakar Bumbu Bali</item>
+        <item>Gado-gado</item>
+        <item>Sate Kambing Madura</item>
+        <item>Soto Betawi</item>
+        <item>Sambal Ikan Teri</item>
+        <item>Pempek Palembang</item>
+        <item>Rendang Padang</item>
+    </string-array>
+    <string-array name="bahan">
+        <item>
+150g udang, buang kepala, sisakan ekornya
+90g tepung terigu protein sedang
+45g tepung maizena
+250ml air
+40ml santan instan
+2sdm margarin, lelehkan
+25batang kucai, iris 0,5 cm
+1sdt Royco Kaldu Ayam
+¼sdt baking powder
+1sdm Jawara Cabai Tabur Bawang Goreng
+Minyak, untuk menggoreng
+Bumbu halus
+6 butir bawang putih
+5 butir bawang merah
+½ sdm garam
+1 sdt ketumbar bubuk
+½ sdt merica putih bubuk</item>
+        <item>
+1 ekor ayam, potong menjadi 4 bagian
+1,5 liter air
+2 lembar daun salam
+2 batang serai, memarkan
+3 lembar daun jeruk purut
+2 cm jahe, memarkan
+2 batang seledri, potong-potong
+2 batang daun bawang, iris halus
+Garam secukupnya
+Merica bubuk secukupnya
+2 sdm minyak goreng
+Bawang goreng secukupnya
+200 gram mie bihun, seduh dengan air panas hingga lunak
+Lontong secukupnya
+Kecap manis secukupnya
+Jeruk nipis secukupnya
+Sambal secukupnya
+        </item>
+        <item>
+2 piring nasi putih
+2 butir telur, kocok lepas
+1 siung bawang putih, cincang halus
+2 batang daun bawang, iris tipis
+2 sdm minyak goreng
+1 sdm kecap manis
+1 sdt garam
+1/2 sdt merica bubuk
+1/2 sdt kaldu ayam bubuk
+</item>
+        <item>
+1 ekor ayam, potong-potong
+1 sdm minyak, untuk menumis
+2 siung bawang putih, cincang
+2 buah cabai merah, iris
+2 buah cabai rawit, iris
+3 sdm saus tiram
+1 sdm kecap manis
+3 sdm gula merah, sisir
+2 sdm gula pasir
+1 buah jeruk nipis, ambil airnya
+2 sdm air asam jawa
+Garam dan merica secukupnya</item>
+        <item>
+150gr Kacang tanah
+150gr Kacang hijau
+4 buah telur rebus
+1 ikat kangkung
+100gr Tauge
+100gr Tahu goreng
+100gr tempe goreng
+1 buah bawang bombay
+2 siung bawang putih
+1 sdm gula pasir
+1 sdm garam
+3 sdm minyak sayur
+2 sdm air asam jawa
+1 sendok makan saus kacang
+2 buah tomat
+2 buah cabai merah
+2 buah bawang merah
+1 buah jeruk limau
+3 sdm kecap manis</item>
+        <item>
+1 kg kambing, potong menjadi empat bagian
+12 buah bawang merah
+9 siung bawang putih
+2 sdm garam
+2 sdm gula pasir
+4 buah cabai merah
+3 sdm ketumbar
+3 sdm kemiri
+3 sdm ketumbar
+2 sdm garam
+5 sdm gula pasir
+1 sdm air asam jawa
+3 lembar daun jeruk
+2 sdm minyak</item>
+        <item>
+1 kg daging sapi, potong-potong
+4 lembar daun jeruk
+4 cm lengkuas
+2 sdm air asam jawa
+2 sdm cuka
+2 sdm garam
+2 sdm gula pasir
+2 sdm ketumbar
+2 sdm kemiri
+2 sdm kayu manis
+1 sdm lada
+3 cm jahe
+3 cm kunyit
+3 cm lengkuas
+3 cm kencur
+2 sdm margarin
+2 sdm minyak
+5 siung bawang putih
+4 buah bawang merah
+4 buah cabai merah
+4 buah tomat
+4 buah cabe rawit
+200 ml santan
+1 liter air
+Bawang goreng</item>
+        <item>
+200 gr ikan teri
+2 sdm minyak
+2 siung bawang putih
+1 buah cabai merah
+3 sdm saos cabe
+2 sdm saos tomat
+2 sdm saos tiram
+1 sdm gula pasir
+Garam dan lada secukupnya
+2 sdm air asam jawa
+1 buah tomat, iris
+1 buah bawang merah, iris
+1 buah kacang panjang, iris
+2 buah cabai rawit hijau, iris
+1 buah jeruk limau, ambil airnya
+3 sdm kecap manis
+2 sdm minyak utk menumis
+Bawang goreng</item>
+        <item>
+500 gr tepung terigu
+200 gr ikan kakap, cincang halus
+3 buah telur
+3 sdm gula pasir
+2 sdm garam
+2 sdm bawang merah goreng
+2 sdm bawang putih goreng
+2 sdt kaldu bubuk
+1 sdm Jawara Cabai Tabur Bawang Goreng
+200 ml air
+Minyak, untuk menggoreng
+Bumbu halus
+5 siung bawang putih
+3 buah bawang merah
+1 sdt ketumbar bubuk
+1 sdt merica putih bubuk</item>
+        <item>
+1 kg daging sapi, potong dadu
+6 siung bawang merah
+3 siung bawang putih
+3 cm jahe
+3 cm lengkuas
+3 cm kunyit
+3 cm kencur
+5 lembar daun salam
+2 sdm garam
+2 sdm gula pasir
+2 sdm ketumbar
+4 sdm minyak
+3 sdm kecap manis
+3 sdm cuka
+2 sdm air asam jawa
+2 sdm santan
+2 sdm margarin
+2 buah cabai merah
+2 buah cabe rawit
+2 buah tomat
+2 sdm Jawara Cabai Tabur Bawang Goreng
+Bawang goreng</item>
+
+
+    </string-array>
+
+    <string-array name="cara_membuat">
+        <item>
+1. Siapkan mangkuk atau wadah besar, masukkan tepung terigu dan tepung beras. Tuang air, aduk hingga tercampur rata.
+2. Tambahkan bumbu halus, Royco Kaldu Ayam, baking powder, dan margarin yang sudah dilelehkan, aduk hingga tercampur rata dan adonan menjadi licin.
+3. Masukkan kucai dan Jawara Cabai Tabur Bawang Goreng, aduk hingga rata.
+4. Siapkan sendok sayur besar berbahan stainless steel. Panaskan minyak, rendam sendok sayur ke dalam minyak panas agar bakwan tidak lengket.
+5. Sendokkan campuran tepung atau adonan bakwan menggunakan sendok sayur hingga hampir penuh. Letakkan 1 ekor udang ke bagian tengahnya. Celupkan kembali ke dalam minyak panas, diamkan hingga adonan setengah matang atau mudah terlepas dari sendok atau cetakannya. Lakukan proses serupa hingga menghasilkan beberapa buah bakwan dalam satu wajan.
+6. Untuk mempercepat proses membentuk bakwan ini, bisa juga menggunakan cetakan khusus bakwan yang biasanya terdiri dari 3-5 wadah dalam 1 cetakan. Masak hingga matang dan kecokelatan. Angkat dan tiriskan. Ulangi proses serupa pada sisa adonan hingga habis. Sajikan. </item>
+        <item>
+1. Rebus ayam dengan air hingga matang. Angkat dan suwir-suwir daging ayamnya. Sisihkan kaldu ayamnya.
+2. Panaskan minyak goreng, tumis daun salam, serai, daun jeruk, dan jahe hingga harum.
+3. Tuang kaldu ayam ke dalam wajan. Tambahkan seledri, daun bawang, garam, dan merica. Masak hingga mendidih.
+4. Ambil mangkuk saji, masukkan mie bihun, suwiran ayam, lontong, dan tauge. Siram dengan kuah soto.
+5. Taburi bawang goreng di atasnya. Sajikan dengan kecap manis, jeruk nipis, dan sambal.
+        </item>
+        <item>
+1. Panaskan minyak di dalam wajan, tumis bawang putih hingga harum.
+2. Masukkan telur, aduk-aduk hingga matang.
+3. Masukkan nasi, aduk rata.
+4. Tambahkan kecap manis, garam, merica bubuk, dan kaldu ayam bubuk. Aduk rata hingga bumbu tercampur merata.
+5. Masukkan daun bawang, aduk rata.
+6. Angkat dan sajikan.
+</item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan ayam dan aduk hingga rata pada bumbu. Tambahkan saus tiram, kecap manis, gula merah, gula pasir, air jeruk nipis, air asam jawa, dan garam.
+3. Aduk hingga merata dan masak hingga ayam matang. Angkat dan sajikan. </item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan kacang tanah, kacang hijau, tahu goreng, tempe goreng, bawang bombay, bawang putih, gula pasir, garam, minyak sayur, air asam jawa, saus kacang, tomat, cabai merah, bawang merah, dan jeruk limau. Aduk hingga merata.
+3. Masukkan kangkung dan tauge. Aduk hingga rata.
+4. Angkat dan sajikan dengan taburan bawang goreng. </item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan daging kambing, bawang merah, bawang putih, garam, gula pasir, cabai merah, ketumbar, kemiri, ketumbar, garam, gula pasir, air asam jawa, daun jeruk, dan minyak. Aduk hingga merata.
+3. Masak hingga daging matang. Angkat dan sajikan. </item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan daging sapi, daun jeruk, lengkuas, air asam jawa, cuka, garam, gula pasir, ketumbar, kemiri, kayu manis, lada, jahe, kunyit, kencur, margarin, minyak, bawang putih, bawang merah, cabai merah, cabe rawit, tomat, santan, dan Jawara Cabai Tabur Bawang Goreng. Aduk hingga merata.
+3. Masak hingga daging matang. Angkat dan sajikan dengan taburan bawang goreng. </item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan ikan teri, minyak, bawang putih, cabai merah, saos cabe, saos tomat, saos tiram, gula pasir, garam, lada, air asam jawa, tomat, bawang merah, kacang panjang, cabai rawit, jeruk limau, dan kecap manis. Aduk hingga merata.
+3. Masak hingga ikan matang. Angkat dan sajikan dengan taburan bawang goreng. </item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan tepung terigu, ikan kakap, telur, gula pasir, garam, bawang merah goreng, bawang putih goreng, kaldu bubuk, dan Jawara Cabai Tabur Bawang Goreng. Aduk hingga merata.
+3. Tuang air secara perlahan, aduk hingga adonan menjadi licin.
+4. Siapkan sendok sayur besar berbahan stainless steel. Panaskan minyak, rendam sendok sayur ke dalam minyak panas agar bakwan tidak lengket.
+5. Sendokkan campuran tepung atau adonan bakwan menggunakan sendok sayur hingga hampir penuh. Masak hingga matang dan kecokelatan. Angkat dan tiriskan. Ulangi proses serupa pada sisa adonan hingga habis. Sajikan.</item>
+        <item>
+1. Siapkan wajan, masukkan bumbu halus dan minyak. Tumis hingga harum.
+2. Masukkan daging sapi, bawang merah, bawang putih, jahe, lengkuas, kunyit, kencur, daun salam, garam, gula pasir, ketumbar, minyak, kecap manis, cuka, air asam jawa, santan, margarin, cabai merah, cabe rawit, tomat, dan Jawara Cabai Tabur Bawang Goreng. Aduk hingga merata.
+3. Masak hingga daging matang. Angkat dan sajikan dengan taburan bawang goreng. </item>
+    </string-array>
+    <string-array name="name_acc">
+        <item>Aulia Safira</item>
+        <item>Budi Santoso</item>
+        <item>Chandra Wijaya</item>
+        <item>Dewi Lestari</item>
+        <item>Eka Saputra</item>
+        <item>Firman Putra</item>
+        <item>Gita Permata</item>
+        <item>Hadi Prasetyo</item>
+        <item>Indra Kusuma</item>
+        <item>Joko Nugroho</item>
+    </string-array>
+    <integer-array name="foto_makanan">
+        <item>@drawable/bakwan_pontianak</item>
+        <item>@drawable/soto_ayam</item>
+        <item>@drawable/nasi_goreng</item>
+        <item>@drawable/ayam_bakar_bumbu_bali_1</item>
+        <item>@drawable/gado_gado</item>
+        <item>@drawable/sate_kambing</item>
+        <item>@drawable/soto_betawi</item>
+        <item>@drawable/sambal_ikan_teri</item>
+        <item>@drawable/pempek_palembang</item>
+        <item>@drawable/rendang_padang</item>
+    </integer-array>
+
+    <integer-array name="foto_orang">
+        <item>@drawable/aulia_safira</item>
+        <item>@drawable/budi_santoso</item>
+        <item>@drawable/chandra_wijaya</item>
+        <item>@drawable/dewi_lestaro</item>
+        <item>@drawable/eka_saputra</item>
+        <item>@drawable/firman_putra</item>
+        <item>@drawable/gita_permata</item>
+        <item>@drawable/hadi_prasetyo</item>
+        <item>@drawable/indra_kusuma</item>
+        <item>@drawable/joko_nugroho</item>
+
+    </integer-array>
+
 </resources>
