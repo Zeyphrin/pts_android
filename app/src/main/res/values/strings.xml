@@ -292,8 +292,12 @@ Bawang goreng</item>
 <!--        <item>@drawable/indra_kusuma</item>-->
 <!--        <item>@drawable/joko_nugroho</item>-->
 
+<<<<<<< HEAD
 <!--    </integer-array>-->
 
+=======
+>>>>>>> a5b154ae2bd6256047b285dd1d40788fb7d99fe0
 
+<!--    </integer-array>-->
 
 </resources>

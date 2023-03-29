@@ -55,16 +55,73 @@
         android:id="@+id/textbahan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins_regular"
         android:text="Bahan-Bahan"
         android:textColor="@color/black"
         android:textSize="23dp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/imageView4"/>
+        app:layout_constraintTop_toBottomOf="@id/imageView4" />
 
+    <TextView
+        android:id="@+id/bahanDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textbahan"/>
+
+    <TextView
+        android:id="@+id/textcara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Cara Membuat"
+        android:textColor="@color/black"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bahanDesc" />
+
+    <TextView
+        android:id="@+id/caraDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textcara"/>
+
+    <ImageView
+        android:id="@id/profile"
+        android:layout_width="47dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/backling"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/caraDesc" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="43dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="LanVy"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/caraDesc" />
 
 
 
