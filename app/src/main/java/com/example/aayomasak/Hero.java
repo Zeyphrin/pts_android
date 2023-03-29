@@ -1,6 +1,7 @@
 package com.example.aayomasak;
 
 public class Hero {
+
     private String name;
     private String description;
     private String ingredients;

@@ -25,6 +25,10 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
         return new ViewHolder(view);
     }
 
+    public HeroAdapter(ArrayList<Hero> dataset){
+        localDataSet = dataset;
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
         private final TextView tvName;
         private final TextView tvUser;
@@ -44,11 +48,9 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
-
         int foodPoster = localDataSet.get(position).getFoodPoster();
         int userPoster = localDataSet.get(position).getUserPoster();
         String name = localDataSet.get(position).getName();
-        String rating = localDataSet.get(position).getRating();
         String user = localDataSet.get(position).getUser();
 
 
@@ -57,21 +59,16 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
         viewHolder.tvName.setText(name);
         viewHolder.tvUser.setText(user);
 
-//        viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
-//                intent.putExtra("foodPoster", foodPoster);
-//                intent.putExtra("userPoster", userPoster);
-//                intent.putExtra("name", name);
-//                intent.putExtra("description", description);
-//                intent.putExtra("ingredients", ingredients);
-//                intent.putExtra("steps", steps);
-//                intent.putExtra("rating", rating);
-//                intent.putExtra("user", user);
-//                viewHolder.itemView.getContext().startActivity(intent);
-//            }
-//        });
+
+        viewHolder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
+
+            intent.putExtra("nama", name);
+
+            viewHolder.itemView.getContext().startActivity(intent);
+        });
+
+
     }
 
     // Return the size of your dataset (invoked by the layout manager)

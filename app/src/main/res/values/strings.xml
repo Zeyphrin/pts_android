@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">AayoMasak</string>
     <string name="cari">Cari resep...</string>
+<<<<<<< HEAD
     <string-array name="nama_makanan">
         <item>Bakwan Pontianak</item>
         <item>Soto Ayam</item>
@@ -292,5 +293,10 @@ Bawang goreng</item>
         <item>@drawable/joko_nugroho</item>
 
     </integer-array>
+=======
+
+
+
+>>>>>>> 3f75a5564fca95d97e117cc13df71a12f95e4588
 
 </resources>
