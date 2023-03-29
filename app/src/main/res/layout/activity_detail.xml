@@ -7,8 +7,7 @@
     android:layout_height="match_parent">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:context=".DetailActivity">
+        android:layout_height="wrap_content">
 
         <ImageView
             android:scaleType="centerCrop"
@@ -17,7 +16,8 @@
             android:layout_height="300dp"
             android:src="@drawable/backimage"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/todo" />
 
         <TextView
             android:id="@+id/textView"
@@ -26,13 +26,12 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="Salmon dengan saus jeruk"
+            android:text="@string/salmon_dengan_saus_jeruk"
             android:textColor="@color/black"
-            android:textSize="23dp"
+            android:textSize="23sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
 
 
         <ImageView
@@ -40,18 +39,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
+            android:contentDescription="@string/todo2"
             android:src="@drawable/star"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
 
 
         <TextView
             android:textColor="@color/black"
             android:fontFamily="@font/poppins_bold"
-            android:layout_marginLeft="5dp"
+            android:layout_marginStart="5dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="8.7"
+            android:text="@string/_8_7"
             app:layout_constraintStart_toEndOf="@+id/imageView4"
             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -62,9 +63,9 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="Bahan-Bahan"
+            android:text="@string/bahan_bahan"
             android:textColor="@color/black"
-            android:textSize="23dp"
+            android:textSize="23sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/imageView4" />
@@ -75,7 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
+            android:text="@string/blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textbahan"/>
@@ -87,9 +88,9 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="Cara Membuat"
+            android:text="@string/cara_membuat"
             android:textColor="@color/black"
-            android:textSize="23dp"
+            android:textSize="23sp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/bahanDesc" />
@@ -100,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
+            android:text="@string/blablablabalblalbalbablalblaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/textcara"/>
@@ -115,7 +116,10 @@
             android:layout_height="50dp"
             android:layout_marginTop="17dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/caraDesc" />
+            app:layout_constraintTop_toBottomOf="@+id/caraDesc"
+            tools:targetApi="s"
+            android:contentDescription="@string/todo1"
+            tools:ignore="ContentDescription,HardcodedText" />
 
 
 
@@ -126,7 +130,7 @@
             android:layout_marginStart="64dp"
             android:layout_marginTop="28dp"
             android:fontFamily="@font/poppins_regular"
-            android:text="LanVy"
+            android:text="@string/lanvy"
             android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/caraDesc" />

@@ -13,7 +13,8 @@
         android:layout_height="300dp"
         android:src="@drawable/backimage"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
 
     <TextView
         android:id="@+id/textView"
@@ -74,7 +75,8 @@
         android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textbahan"/>
+        app:layout_constraintTop_toBottomOf="@id/textbahan"
+        tools:ignore="VisualLintLongText" />
 
     <TextView
         android:id="@+id/textcara"
@@ -99,7 +101,8 @@
         android:text="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla"
         android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textcara"/>
+        app:layout_constraintTop_toBottomOf="@id/textcara"
+        tools:ignore="VisualLintLongText" />
 
     <ImageView
 

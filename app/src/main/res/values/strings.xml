@@ -1,6 +1,16 @@
 <resources>
     <string name="app_name">AayoMasak</string>
     <string name="cari">Cari resep…</string>
+    <string name="lanvy">LanVy</string>
+    <string name="blablablabalblalbalbablalblaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla">blablablabalblalbalbablalblaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla</string>
+    <string name="todo">TODO</string>
+    <string name="salmon_dengan_saus_jeruk">Salmon dengan saus jeruk</string>
+    <string name="todo1">TODO1</string>
+    <string name="blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla">blablablabalblalbalbablalblalbalblalblblablayadaydaydyadyaydaydyadyaydaydyadyaydaydyadyaydaydyadyadyaydaydaydyaydadblablablakabkakla</string>
+    <string name="bahan_bahan">Bahan-Bahan</string>
+    <string name="_8_7">8.7</string>
+    <string name="cara_membuat">Cara Membuat</string>
+    <string name="todo2">TODO2</string>
 
     <string-array name="nama_makanan">
         <item>Bakwan Pontianak</item>
@@ -34,19 +44,19 @@ Bumbu halus
 1 sdt ketumbar bubuk
 ½ sdt merica putih bubuk</item>
         <item>
-1 ekor ayam, potong menjadi 4 bagian
-1,5 liter air
-2 lembar daun salam
-2 batang serai, memarkan
-3 lembar daun jeruk purut
-2 cm jahe, memarkan
-2 batang seledri, potong-potong
-2 batang daun bawang, iris halus
-Garam secukupnya
-Merica bubuk secukupnya
-2 sdm minyak goreng
-Bawang goreng secukupnya
-200 gram mie bihun, seduh dengan air panas hingga lunak
+1 ekor ayam, potong menjadi 4 bagian\n
+1,5 liter air\n
+2 lembar daun salam\n
+2 batang serai, memarkan\n
+3 lembar daun jeruk purut\n
+2 cm jahe, memarkan\n
+2 batang seledri, potong-potong\n
+2 batang daun bawang, iris halus\n
+Garam secukupnya\n
+Merica bubuk secukupnya\n
+2 sdm minyak goreng\n
+Bawang goreng secukupnya\n
+200 gram mie bihun, seduh dengan air panas hingga lunak\n
 Lontong secukupnya
 Kecap manis secukupnya
 Jeruk nipis secukupnya
