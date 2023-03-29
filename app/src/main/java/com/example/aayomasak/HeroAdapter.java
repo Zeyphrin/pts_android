@@ -60,6 +60,15 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
         viewHolder.tvUser.setText(user);
 
 
+        viewHolder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
+
+            intent.putExtra("nama", name);
+
+            viewHolder.itemView.getContext().startActivity(intent);
+        });
+
+
     }
 
     // Return the size of your dataset (invoked by the layout manager)
