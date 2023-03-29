@@ -30,17 +30,17 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-        private final TextView tvName;
-        private final TextView tvUser;
+//        private final TextView tvName;
+//        private final TextView tvUser;
         private final ImageView imgFoodPoster;
-        private final ImageView imgUserPoster;
+//        private final ImageView imgUserPoster;
         public ViewHolder(View view) {
             super(view);
             // Define click listener for the ViewHolder's View
-            tvName = view.findViewById(R.id.food_name);
-            tvUser = view.findViewById(R.id.food_creator);
-            imgFoodPoster =  view.findViewById(R.id.food_poster);
-            imgUserPoster = view.findViewById(R.id.food_pfp);
+//            tvName = view.findViewById(R.id.nama_makanan);
+//            tvUser = view.findViewById(R.id.nama);
+            imgFoodPoster =  view.findViewById(R.id.imageView3);
+//            imgUserPoster = view.findViewById(R.id.profile);
         }
 
     }
@@ -48,6 +48,12 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
+        System.out.println(localDataSet.get(0).getFoodPoster());
+        System.out.println(localDataSet.get(1).getFoodPoster());
+        System.out.println(localDataSet.get(2).getFoodPoster());
+        System.out.println(localDataSet.get(3).getFoodPoster());
+        System.out.println(localDataSet.get(4).getFoodPoster());
+
         int foodPoster = localDataSet.get(position).getFoodPoster();
         int userPoster = localDataSet.get(position).getUserPoster();
         String name = localDataSet.get(position).getName();
@@ -55,23 +61,25 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
 
 
         viewHolder.imgFoodPoster.setImageResource(foodPoster);
-        viewHolder.imgUserPoster.setImageResource(userPoster);
-        viewHolder.tvName.setText(name);
-        viewHolder.tvUser.setText(user);
 
 
-        viewHolder.itemView.setOnClickListener(view -> {
-            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
 
-            intent.putExtra("nama", name);
+//        viewHolder.imgUserPoster.setImageResource(userPoster);
+//        viewHolder.tvName.setText(name);
+//        viewHolder.tvUser.setText(user);
 
-            viewHolder.itemView.getContext().startActivity(intent);
-        });
+
+//        viewHolder.itemView.setOnClickListener(view -> {
+//            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
+//
+//            intent.putExtra("nama", name);
+//
+//            viewHolder.itemView.getContext().startActivity(intent);
+//        });
 
 
     }
 
-    // Return the size of your dataset (invoked by the layout manager)
     @Override
     public int getItemCount() {
         return localDataSet.size();

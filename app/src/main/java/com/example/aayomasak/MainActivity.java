@@ -38,20 +38,21 @@ public class MainActivity extends AppCompatActivity {
 
 
     private ArrayList<Hero> getListHero(){
-        String[] foodName = getResources().getStringArray(R.array.data_name);
-        String[] foodNameCreator = getResources().getStringArray(R.array.data_name);
-        TypedArray foodPoster = getResources().obtainTypedArray(R.array.data_photo);
-        TypedArray foodCreator = getResources().obtainTypedArray(R.array.data_photo);
+        String[] foodName = getResources().getStringArray(R.array.nama_makanan);
+        String[] foodNameCreator = getResources().getStringArray(R.array.name_acc);
+        TypedArray foodPoster = getResources().obtainTypedArray(R.array.foto_makanan);
+//        TypedArray foodCreator = getResources().obtainTypedArray(R.array.fo);
 
         ArrayList<Hero> heroes = new ArrayList<>();
 
-        Hero hero = new Hero();
+
 
         for(int i = 0; i < foodName.length;i++){
+            Hero hero = new Hero();
             hero.setName(foodName[i]);
             hero.setUser(foodNameCreator[i]);
             hero.setFoodPoster(foodPoster.getResourceId(i,0));
-            hero.setUserPoster(foodCreator.getResourceId(i,0));
+//            hero.setUserPoster(foodCreator.getResourceId(i,0));
             heroes.add(hero);
         }
 
