@@ -7,9 +7,9 @@
     tools:context=".DetailActivity">
 
     <ImageView
-
+        android:scaleType="centerCrop"
         android:id="@+id/imageView2"
-        android:layout_width="match_parent"
+        android:layout_width="415dp"
         android:layout_height="300dp"
         android:src="@drawable/backimage"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,6 +102,9 @@
         app:layout_constraintTop_toBottomOf="@id/textcara"/>
 
     <ImageView
+
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
         android:id="@id/profile"
         android:layout_width="47dp"
         android:layout_height="50dp"
@@ -110,6 +113,8 @@
         android:src="@drawable/backling"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/caraDesc" />
+
+
 
     <TextView
         android:id="@+id/username"

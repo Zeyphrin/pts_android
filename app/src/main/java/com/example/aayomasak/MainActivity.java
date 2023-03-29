@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         String[] foodName = getResources().getStringArray(R.array.nama_makanan);
         String[] foodNameCreator = getResources().getStringArray(R.array.name_acc);
         TypedArray foodPoster = getResources().obtainTypedArray(R.array.foto_makanan);
-//        TypedArray foodCreator = getResources().obtainTypedArray(R.array.fo);
+        TypedArray foodCreator = getResources().obtainTypedArray(R.array.foto_orang);
 
         ArrayList<Hero> heroes = new ArrayList<>();
 
@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
             hero.setName(foodName[i]);
             hero.setUser(foodNameCreator[i]);
             hero.setFoodPoster(foodPoster.getResourceId(i,0));
-//            hero.setUserPoster(foodCreator.getResourceId(i,0));
+            hero.setUserPoster(foodCreator.getResourceId(i,0));
             heroes.add(hero);
         }
 

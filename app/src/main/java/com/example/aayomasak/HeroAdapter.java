@@ -30,17 +30,17 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
     }
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
-//        private final TextView tvName;
-//        private final TextView tvUser;
+        private final TextView tvName;
+        private final TextView tvUser;
         private final ImageView imgFoodPoster;
-//        private final ImageView imgUserPoster;
+        private final ImageView imgUserPoster;
         public ViewHolder(View view) {
             super(view);
             // Define click listener for the ViewHolder's View
-//            tvName = view.findViewById(R.id.nama_makanan);
-//            tvUser = view.findViewById(R.id.nama);
+            tvName = view.findViewById(R.id.nama_makanan);
+            tvUser = view.findViewById(R.id.nama);
             imgFoodPoster =  view.findViewById(R.id.imageView3);
-//            imgUserPoster = view.findViewById(R.id.profile);
+            imgUserPoster = view.findViewById(R.id.profile);
         }
 
     }
@@ -61,21 +61,19 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
 
 
         viewHolder.imgFoodPoster.setImageResource(foodPoster);
+        viewHolder.imgUserPoster.setImageResource(userPoster);
+        viewHolder.tvName.setText(name);
+        viewHolder.tvUser.setText(user);
 
 
-
-//        viewHolder.imgUserPoster.setImageResource(userPoster);
-//        viewHolder.tvName.setText(name);
-//        viewHolder.tvUser.setText(user);
-
-
-//        viewHolder.itemView.setOnClickListener(view -> {
-//            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
-//
-//            intent.putExtra("nama", name);
-//
-//            viewHolder.itemView.getContext().startActivity(intent);
-//        });
+        viewHolder.itemView.setOnClickListener(view -> {
+            Intent intent = new Intent(viewHolder.itemView.getContext(), DetailActivity.class);
+            intent.putExtra("gambar", foodPoster);
+            intent.putExtra("usergambar", userPoster);
+            intent.putExtra("namamakanan", name);
+            intent.putExtra("namaUser", user);
+            viewHolder.itemView.getContext().startActivity(intent);
+        });
 
 
     }

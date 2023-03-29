@@ -280,20 +280,20 @@ Bawang goreng</item>
         <item>@drawable/rendang_padang</item>
     </integer-array>
 
-<!--    <integer-array name="foto_orang">-->
-<!--        <item>@drawable/aulia_safira</item>-->
-<!--        <item>@drawable/budi_santoso</item>-->
-<!--        <item>@drawable/chandra_wijaya</item>-->
-<!--        <item>@drawable/dewi_lestaro</item>-->
-<!--        <item>@drawable/eka_saputra</item>-->
-<!--        <item>@drawable/firman_putra</item>-->
-<!--        <item>@drawable/gita_permata</item>-->
-<!--        <item>@drawable/hadi_prasetyo</item>-->
-<!--        <item>@drawable/indra_kusuma</item>-->
-<!--        <item>@drawable/joko_nugroho</item>-->
+    <integer-array name="foto_orang">
+        <item>@drawable/aulia_safira</item>
+        <item>@drawable/budi_santoso</item>
+        <item>@drawable/chandra_wijaya</item>
+        <item>@drawable/dewi_lestaro</item>
+        <item>@drawable/eka_saputra</item>
+        <item>@drawable/firman_putra</item>
+        <item>@drawable/gita_permata</item>
+        <item>@drawable/hadi_prasetyo</item>
+        <item>@drawable/indra_kusuma</item>
+        <item>@drawable/joko_nugroho</item>
 
 
-<!--    </integer-array>-->
+    </integer-array>
 
 
 </resources>
