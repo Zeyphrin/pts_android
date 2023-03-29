@@ -8,6 +8,26 @@ public class Hero {
     private String steps;
     private String rating;
     private String user;
+
+    public String getBahan() {
+        return bahan;
+    }
+
+    public void setBahan(String bahan) {
+        this.bahan = bahan;
+    }
+
+    private String bahan;
+
+    public String getCaramembuat() {
+        return caramembuat;
+    }
+
+    public void setCaramembuat(String caramembuat) {
+        this.caramembuat = caramembuat;
+    }
+
+    private String caramembuat;
     private int foodPoster;
     private int userPoster;
 

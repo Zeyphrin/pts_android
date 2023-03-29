@@ -48,16 +48,14 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
     // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
-        System.out.println(localDataSet.get(0).getFoodPoster());
-        System.out.println(localDataSet.get(1).getFoodPoster());
-        System.out.println(localDataSet.get(2).getFoodPoster());
-        System.out.println(localDataSet.get(3).getFoodPoster());
-        System.out.println(localDataSet.get(4).getFoodPoster());
+
 
         int foodPoster = localDataSet.get(position).getFoodPoster();
         int userPoster = localDataSet.get(position).getUserPoster();
         String name = localDataSet.get(position).getName();
         String user = localDataSet.get(position).getUser();
+        String bahan = localDataSet.get(position).getBahan();
+        String membuat = localDataSet.get(position).getCaramembuat();
 
 
         viewHolder.imgFoodPoster.setImageResource(foodPoster);
@@ -72,6 +70,8 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.ViewHolder> {
             intent.putExtra("usergambar", userPoster);
             intent.putExtra("namamakanan", name);
             intent.putExtra("namaUser", user);
+            intent.putExtra("bahan", bahan);
+            intent.putExtra("mebuat", membuat);
             viewHolder.itemView.getContext().startActivity(intent);
         });
 

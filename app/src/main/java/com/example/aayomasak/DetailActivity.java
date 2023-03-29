@@ -21,10 +21,19 @@ public class DetailActivity extends AppCompatActivity {
         int gambar = getIntent().getIntExtra("gambar", 0);
         int usergambar = getIntent().getIntExtra("usergambar", 0);
         String namamakanan = getIntent().getStringExtra("namamakanan");
+        String namuser = getIntent().getStringExtra("namaUser");
+
+        String bahan = getIntent().getStringExtra("bahan");
+        String caramembuat = getIntent().getStringExtra("mebuat");
+
+
 
         binding.imageView2.setImageResource(gambar);
         binding.profile.setImageResource(usergambar);
         binding.textView.setText(namamakanan);
+        binding.username.setText(namuser);
+        binding.bahanDesc.setText(bahan);
+        binding.caraDesc.setText(caramembuat);
 
 
     }
